@@ -14,7 +14,7 @@ namespace TupleTutorial
         static void Main(string[] args)
         {
             var outTest = separateDouble(113.514);
-            Console.WriteLine($"{outTest.interger}\n{outTest.decimalPart:F3}");
+            Console.WriteLine($"{outTest.interger}\n{outTest.decimalPart:F3}\n{outTest.GetType()}");
         }
     }
 }
